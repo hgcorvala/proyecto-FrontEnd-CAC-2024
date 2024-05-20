@@ -1,0 +1,33 @@
+/* Estilos que le damos a la seccion que contiene la tabla para los productos */
+#listado-de-productos {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos que le damos a tabla */
+#tabla-de-productos {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0b27a;
+}
+
+#tabla-de-productos th, #tabla-de-productos td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+}
+
+#tabla-de-productos th {
+    background-color: #52be80;
+    color: #ffffff;
+    text-align: left;
+}
+
+#tabla-de-productos tr:nth-child(even) {
+    background-color: #fcf3cf;
+}
+
+/* #tabla-de-productos tr:hover {
+    background-color: #f1f1f1;
+} */

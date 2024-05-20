@@ -1,0 +1,19 @@
+/*Estilos para el footer  */
+.icono__social-media{
+    width: 30px;
+}
+
+.ul-social-media{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
+.ul-social-media li {
+    margin: 1rem;
+}
+
+.footer_title{
+    text-align: center;
+    font-size: 26px;
+}

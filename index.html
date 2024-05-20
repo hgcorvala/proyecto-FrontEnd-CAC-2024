@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria-Katz</title>
+    
+    <!-- Fuentes que usaremos en la pagina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+    
+    <!-- Hojas de estilos CSS -->
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/menu.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div id="logo">
+            <a href="index.html">Victoria Katz</a>
+        </div>
+        <nav id="menu">
+            <button class="nav-mobile" id="nav-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- Conetenido de la web -->
+    <main>
+        <!-- Banner, seccion principal -->
+        <section id="banner">
+            <div class="container-banner">
+                <h1>Victoria Katz - Productos Naturales</h1>
+                <h3>Bienvenido a nuestra tienda de productos naturales, donde encontrarás una amplia gama de cremas,
+                    jabones y otros productos para el cuidado personal hechos con ingredientes naturales y orgánicos
+                </h3><br>
+                <p><strong>Fitocosmética, Etnobotánica, Alimentación orgánica, Terapias alternativas complementarias,
+                        Terapia bioxidativa y Talasoterapia</strong></p>
+            </div>
+        </section>
+        <section id="resumen-index" class="container">
+            <p>En un mundo lleno de productos químicos y sintéticos, cada vez más personas están optando por un enfoque
+                más natural cuando se trata del cuidado de su cuerpo. Los productos naturales, derivados de ingredientes
+                orgánicos y libres de químicos agresivos, ofrecen una alternativa saludable y efectiva para mantener
+                nuestra piel y nuestro bienestar en óptimas condiciones. La piel es el órgano más grande de nuestro
+                cuerpo y actúa como una barrera protectora contra el entorno. Sin embargo, muchos de los productos
+                convencionales que utilizamos diariamente contienen ingredientes artificiales que pueden ser absorbidos
+                por la piel y potencialmente causar daño a largo plazo. Es por eso que la elección de productos
+                naturales es fundamental para mantener la salud y la vitalidad de nuestra piel.
+                Los productos naturales están llenos de ingredientes provenientes de la naturaleza, como aceites
+                esenciales, extractos de plantas y vitaminas, que ofrecen una amplia gama de beneficios para la piel.
+                Estos ingredientes son conocidos por sus propiedades hidratantes, antioxidantes, antiinflamatorias y
+                regenerativas, que ayudan a nutrir, proteger y rejuvenecer la piel de manera natural.
+                Además, al optar por productos naturales, también estamos contribuyendo a la protección del medio
+                ambiente. Los ingredientes naturales son biodegradables y no contaminan el agua ni el suelo, a
+                diferencia de muchos productos químicos sintéticos que pueden tener un impacto negativo en el
+                ecosistema.
+                En resumen, la elección de productos naturales para el cuidado del cuerpo es una decisión que beneficia
+                tanto a nuestra salud como al medio ambiente. Al adoptar un enfoque más consciente y natural hacia el
+                cuidado personal, podemos disfrutar de una piel radiante y saludable, al tiempo que contribuimos a un
+                mundo más limpio y sostenible para las generaciones futuras.
+            </p><br>
+        </section>
+        
+        <div class="container">
+            <h2>Productos Populares</h2>
+            <p>Estos son los tres productos más pedidos por nuestros clientes en nuestra página el ultimo mes.</p><br><br>
+        </div>
+        <!-- Productos más vendidos -->
+        <section id="popular-product" class="container-body">
+            <div class="container-body-item">
+                <a href="./templates/productos.html">
+                    <img src="./static/img/producto-1.png" alt="Oleo para masajes" class="product-item-img">
+                    <div class="product-item-detail">
+                        <p class="product-item-detail-title">Oleo para Masajes</p>
+                        <p class="product-item-detail-subtitle">(500 cc y 1000 cc)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="container-body-item">
+                <a href="./templates/productos.html">
+                    <img src="./static/img/producto-2.png" alt="Aceite de Canabis" class="product-item-img">
+                    <div class="product-item-detail">
+                        <p class="product-item-detail-title">Aceite de Canabis</p>
+                        <p class="product-item-detail-subtitle">(Concentración 30%)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="container-body-item">
+                <a href="./templates/productos.html">
+                    <img src="./static/img/producto-3.png" alt="Mascarilla facial de carbón" class="product-item-img">
+                    <div class="product-item-detail">
+                        <p class="product-item-detail-title">Mascarilla facial de carbón</p>
+                        <p class="product-item-detail-subtitle">(100% vegano)</p>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        
+        <div class="social-media-links">
+            <p class="footer_title">Victoria Katz</p>
+            <ul class="ul-social-media">
+                <li>
+                    <!-- twitter -->
+                    <a href="#">
+                        <img src="static/img/icon-twitter.svg" alt="icono twitter" 
+                        class="icono__social-media">
+                    </a>
+                </li>
+                <li>
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/victoriakatz.tienda">
+                        <img src="static/img/icon-facebook.svg" alt="icono facebook"
+                        class="icono__social-media">
+                    </a>
+                </li>
+                <li>
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/victoriakatztienda">
+                        <img src="static/img/iconInstagram.svg" alt="icono instagram"
+                        class="icono__social-media">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

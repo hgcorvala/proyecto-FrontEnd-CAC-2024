@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Fuentes que usaremos en la pagina -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+        <!-- Hojas de estilo -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/menu.css">
+        <link rel="stylesheet" href="../static/css/footer.css">
+        <link rel="stylesheet" href="../static/css/productos.css">
+        <title>Victoria-Katz</title>
+    </head>
+
+    <body>
+        
+        <header class="header">
+            <div id="logo">
+                <a href="#">Victoria Katz</a>
+            </div>
+            <nav id="menu">
+                <button class="nav-mobile" id="nav-mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <section class="container">
+                <h1>Lista de Productos</h1><br>
+            </section>
+            <section id="listado-de-productos">
+                <table id="tabla-de-productos">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí se insertarán los productos dinámicamente -->
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+            
+            <div class="social-media-links">
+                <p class="footer_title">Victoria Katz</p>
+                <ul class="ul-social-media">
+                    <li>
+                        <!-- twitter -->
+                        <a href="#">
+                            <img src="../static/img/icon-twitter.svg" alt="icono twitter" 
+                            class="icono__social-media">
+                        </a>
+                    </li>
+                    <li>
+                        <!-- facebook -->
+                        <a href="https://www.facebook.com/victoriakatz.tienda">
+                            <img src="../static/img/icon-facebook.svg" alt="icono facebook"
+                            class="icono__social-media">
+                        </a>
+                    </li>
+                    <li>
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/victoriakatztienda">
+                            <img src="../static/img/iconInstagram.svg" alt="icono instagram"
+                            class="icono__social-media">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="../js/menu.js"></script>
+        <script src="../js/productos.js"></script>    
+    </body>
+</html>

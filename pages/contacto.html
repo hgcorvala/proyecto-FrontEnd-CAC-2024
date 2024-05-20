@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/menu.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/formulario.css">
+    <title>Victoria-Katz</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="logo">
+            <a href="#">Victoria Katz</a>
+        </div>
+        <nav id="menu">
+            <button class="nav-mobile" id="nav-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- <main>
+
+    </main> -->
+
+    <!-- formulario de contacto en html y css -->  
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+          <form>
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+              
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                      <span class="obligatorio">*</span>
+                    </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+
+
+    <footer class="footer">
+
+        <div class="social-media-links">
+            <p class="footer_title">Victoria Katz</p>
+            <ul class="ul-social-media">
+                <li>
+                    <a href="#">
+                        <img src="../static/img/icon-twitter.svg" alt="icono twitter" class="icono__social-media">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/victoriakatz.tienda">
+                        <img src="../static/img/icon-facebook.svg" alt="icono facebook" class="icono__social-media">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/victoriakatztienda">
+                        <img src="../static/img/iconInstagram.svg" alt="icono instagram" class="icono__social-media">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/formulario.js"></script>
+</body>
+
+</html>
