@@ -36,7 +36,7 @@
     width: 100%;
 }
 
-button{
+.button__blog{
   font-size: 10px;
   background-color: #fff;
   letter-spacing: 2px;
@@ -57,7 +57,7 @@ button{
   margin: 1rem;
 }
   
-button:before {
+.button__blog:before {
   transition: 0.5s all ease;
   position: absolute;
   top: 0;
@@ -70,17 +70,17 @@ button:before {
   z-index: -1;
 }
 
-button:hover, button:focus {
+.button__blog:hover, .button__blog:focus {
   color: white;
 }
 
-button:hover:before, button:focus:before {
+.button__blog:hover:before, .button__blog:focus:before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
 
-button:active {
+.button__blog:active {
   transform: scale(0.9);
 }

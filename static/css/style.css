@@ -73,7 +73,6 @@ body {
 .container {
     max-width: 95%;
     margin: 10px auto;
-    text-align: justify;
 }
 
 .container-banner {
@@ -88,12 +87,22 @@ body {
     object-fit: cover;
 }
 
+a{ 
+    text-decoration: none;
+}
+.product-item-detail-title , .product-item-detail-subtitle{
+    color: #000;
+    text-align: center;
+    margin: .5rem;
+}
+
+/* 
 .product-item-detail {
     width: 200px;
     height: 300px;
     -o-object-fit: cover;
     object-fit: cover;
-}
+} */
 
 
 /* Se acomodan las imagenes y descripciones de los productos más populares en el body utilizando Flex*/
@@ -112,3 +121,25 @@ body {
     flex-basis: 10%;    
 }
 
+.title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 4rem;
+    }
+    .sub-title {
+        font-size: 2rem;
+        line-height: 2.1rem;
+    }   
+}
