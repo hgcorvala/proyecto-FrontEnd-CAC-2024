@@ -5,7 +5,7 @@
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
+  background-color: #FFDA78; 
 }
 
 
@@ -42,7 +42,7 @@ textarea{
   border-radius: 5px;  
   border-style: solid; 
   border-width: 1px; 
-  border-color: #ab4493; 
+  border-color: #003285; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -63,8 +63,8 @@ button{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
+  background-color: #003285; 
+  border-color: #003285; 
   border-style: solid; 
   border-radius: 10px;  
   width: 420px;   
@@ -78,7 +78,7 @@ button p{
 
 
 span{
-  color: #ab4493; 
+  color: #003285;
 }
 
 
@@ -89,23 +89,23 @@ span{
 
 
 h1{
-  font-size: 39px;  
+  font-size: 25px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #ab4493;
+  color: #003285;
 }
 
 
 h3{
   font-size: 16px; 
   padding-bottom: 30px;
-  color: #0e0e0e;   
+  color: #003285;   
 }
 
 
 p{
   font-size: 14px; 
-  color: #0e0e0e; 
+  color: #003285; 
 }
 
 
@@ -121,11 +121,11 @@ p{
 
 .formulario input:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #003285;
 }
 
 
 .formulario textarea:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #003285;
 }
